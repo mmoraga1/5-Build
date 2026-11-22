@@ -101,14 +101,7 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
 }
-
 /* ===== Media Query (Medium) ===== */
-/* write a media query for a screen with at least 800px */
-/* change the body's grid template to 1fr 300px */
-/* target the header, nav, and footer and style their grid-column to 1/-1 */
-/* target the nav and display it flex, spaceed around */
-/* target the .card-row to display flex */
-/* target the sections in .card-row witha width for 30% */
 @media screen and (min-width:650px){
     body {
         grid-template-columns: 1fr 300px;
