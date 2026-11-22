@@ -109,3 +109,21 @@ footer {
 /* target the nav and display it flex, spaceed around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row witha width for 30% */
+@media screen and (min-width:650px){
+    body {
+        grid-template-columns: 1fr 300px;
+    }
+    header, nav, footer {
+        grid-column: 1/-1;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card-row {
+        display: flex;
+    }
+    .card-row section {
+        width: 30%;
+    }
+}
